@@ -2,9 +2,8 @@ name: AI Radar Africa — Daily Brief
 
 on:
   schedule:
-    # 3:00 AM UTC = 6:00 AM Nairobi (EAT, UTC+3)
     - cron: "0 3 * * *"
-  workflow_dispatch:  # allow manual runs from GitHub UI
+  workflow_dispatch:
 
 jobs:
   daily-brief:
@@ -20,22 +19,20 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements_no_api.txt
 
       - name: Create outputs & logs dirs
         run: mkdir -p outputs logs
 
       - name: Write Gmail token from secret
-        # token.json is stored as a GitHub Secret (base64-encoded)
         run: |
           echo "${{ secrets.GMAIL_TOKEN_B64 }}" | base64 -d > token.json
 
-      - name: Run pipeline
+      - name: Run pipeline (no-API version)
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GMAIL_SENDER:      ${{ secrets.GMAIL_SENDER }}
-          BRIEF_RECIPIENT:   ${{ secrets.BRIEF_RECIPIENT }}
-        run: python main.py
+          GMAIL_SENDER:    ${{ secrets.GMAIL_SENDER }}
+          BRIEF_RECIPIENT: ${{ secrets.BRIEF_RECIPIENT }}
+        run: python main_no_api.py
 
       - name: Commit outputs to repo
         run: |
