@@ -1,0 +1,62 @@
+---AI RADAR AFRICA BRIEF---
+Date: June 09, 2026
+
+🔴 TOP STORY
+Title: The Open Source Community is backing OpenEnv for Agentic RL
+Score: 4.1/10
+Source: Hugging Face  |  https://huggingface.co/blog/openenv-agentic-rl
+What happened: 
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟡 SECONDARY STORY
+Title: Make integrations: Capabilities, limitations, and when to use Zapier
+Score: 3.1/10
+Source: Zapier Blog  |  https://zapier.com/blog/make-integrations
+What happened: I have a particular brand of curiosity that kicks in the moment I find out another tool does roughly what the one I'm using does, possibly for less money, possibly with more features. It's a fun and emotionally healthy way to spend an afternoon—hunched over my laptop like a gargo
+Why it matters: Affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟢 EMERGING TREND
+Title: Calendly vs. Acuity: Which scheduling app should you use? [2026]
+Score: 3.0/10
+Source: Zapier Blog  |  https://zapier.com/blog/calendly-vs-acuity
+What happened: Nobody wants to book a meeting or appointment unless they can do it online. That means you need a scheduling app, unless you have a nostalgic love for 2003-era back-and-forth email exchanges. Two of the most recognizable scheduling apps are Calendly and Acuity. Both platforms are
+Why it matters: Breaking/new, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+---PODCAST SCRIPT---
+Episode Title: The Week in AI — The Open Source Community is backing OpenEnv for A
+
+Intro (30 sec):
+This week, The Open Source Community is backing OpenEnv for Agentic RL. Here's why it matters for African tech pros.
+
+Segment 1 — The Open Source Community is backing OpenEnv for A (2 min):
+- What happened: 
+- Why it matters: high impact, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 2 — Make integrations: Capabilities, limitations, and  (2 min):
+- What happened: I have a particular brand of curiosity that kicks in the moment I find out another tool does roughly what the one I'm using does, possibly for less mo
+- Why it matters: affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 3 — African Angle (1 min):
+What's moving in Kenya/Africa this week — jobs, funding, and policy worth watching.
+
+Outro (30 sec):
+Subscribe for weekly AI trends. Follow @jowac254 on TikTok. See you next week.
+
+---LINKEDIN POST---
+What in AI actually matters for your role this week? Here are 3:
+
+1. The Open Source Community is backing OpenEnv for Agentic RL — high impact, affects tech workflows.
+2. Make integrations: Capabilities, limitations, and when to use Zapier — affects tech workflows.
+3. Calendly vs. Acuity: Which scheduling app should you use? [2026] — breaking/new, affects tech workflows.
+
+What are you seeing in your network?
+
+#AI #DataScience #AfricaTech #Kenya #MLAfrica
