@@ -20,13 +20,13 @@ African angle: Background context for staying current on global AI direction.
 Your move: Explore how this tool/skill could slot into your workflow this week.
 
 🟢 EMERGING TREND
-Title: Calendly vs. Acuity: Which scheduling app should you use? [2026]
-Score: 3.0/10
-Source: Zapier Blog  |  https://zapier.com/blog/calendly-vs-acuity
-What happened: Nobody wants to book a meeting or appointment unless they can do it online. That means you need a scheduling app, unless you have a nostalgic love for 2003-era back-and-forth email exchanges. Two of the most recognizable scheduling apps are Calendly and Acuity. Both platforms are
-Why it matters: Breaking/new, affects tech workflows.
+Title: ResearchJun 4, 2026
+Score: 2.5/10
+Source: OpenAI Blog  |  https://openai.com/index/chatgpt-memory-dreaming/
+What happened: 
+Why it matters: High impact.
 African angle: Background context for staying current on global AI direction.
-Your move: Explore how this tool/skill could slot into your workflow this week.
+Your move: Bookmark for context; revisit if it gains traction.
 
 ---PODCAST SCRIPT---
 Episode Title: The Week in AI — The Open Source Community is backing OpenEnv for A
@@ -55,7 +55,7 @@ What in AI actually matters for your role this week? Here are 3:
 
 1. The Open Source Community is backing OpenEnv for Agentic RL — high impact, affects tech workflows.
 2. Make integrations: Capabilities, limitations, and when to use Zapier — affects tech workflows.
-3. Calendly vs. Acuity: Which scheduling app should you use? [2026] — breaking/new, affects tech workflows.
+3. ResearchJun 4, 2026 — high impact.
 
 What are you seeing in your network?
 

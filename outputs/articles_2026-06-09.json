@@ -135,10 +135,28 @@
     "date": "2026-06-08T12:00:35+00:00"
   },
   {
+    "id": "e0af8849d4df",
+    "title": "The best Docusign alternatives in 2026",
+    "url": "https://zapier.com/blog/docusign-alternatives",
+    "summary": "Contracts, agreements, and other business documents going paperless hasn't meant the end of paperwork\u2014it just means you need to sign things in a different way. You no longer need to find a pen, scrawl your name a few times on a scrap of paper, and send it off with a courier (or hand it to an admin to scan). In most cases, all you need to do is type your name, click a box, or use your laptop's trackpad. And, most importantly, it's just as legally binding. Whether you're the one sending documents",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-09T04:00:00+00:00"
+  },
+  {
     "id": "e355af7be1ae",
     "title": "The best customer experience software in 2026",
     "url": "https://zapier.com/blog/best-customer-experience-software",
     "summary": "I canceled a subscription recently because I started questioning my experience. I'd been loyal for months, but the customer-facing AI agents felt like they were regressing, it took forever to speak to a human support agent, and all of the branding started targeting a much younger audience. They probably logged it as general churn; that's fine, I'm sure \"old man yells at cloud\" isn't something they would put into a report. Every single touchpoint you have with a customer shapes their experience,",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-09T04:00:00+00:00"
+  },
+  {
+    "id": "c1d3329b0d8d",
+    "title": "TidyCal vs. Calendly: Which meeting scheduler is best? [2026]",
+    "url": "https://zapier.com/blog/tidycal-vs-calendly",
+    "summary": "In the dark ages of scheduling meetings\u2014a mere decade ago\u2014back-and-forth emails were the standard. Then Calendly came along with its \"smart scheduling\" technology, which blocks out the times you aren't available and lets meeting attendees book whatever time works for them. Over time, it inspired legions of competitors. TidyCal is one of them, offering fewer features but significant cost savings. I'm a long-time Calendly user, and I spent time in TidyCal to compare the strengths of each tool. If",
     "source": "Zapier Blog",
     "category": "automation",
     "date": "2026-06-09T04:00:00+00:00"
@@ -162,26 +180,17 @@
     "date": "2026-06-09T04:00:00+00:00"
   },
   {
-    "id": "1752b5e33266",
-    "title": "Calendly vs. Acuity: Which scheduling app should you use? [2026]",
-    "url": "https://zapier.com/blog/calendly-vs-acuity",
-    "summary": "Nobody wants to book a meeting or appointment unless they can do it online. That means you need a scheduling app, unless you have a nostalgic love for 2003-era back-and-forth email exchanges. Two of the most recognizable scheduling apps are Calendly and Acuity. Both platforms are intuitive and reliable and allow users to automate booking, sync with calendar apps, and even accept payments. But while the two apps may look really similar at first glance, they each have their own strengths and targe",
-    "source": "Zapier Blog",
-    "category": "automation",
-    "date": "2026-06-08T05:00:00+00:00"
-  },
-  {
-    "id": "3f46293a084f",
-    "title": "Microsoft Bookings vs Calendly: Which is the best meeting scheduler? [2026]",
-    "url": "https://zapier.com/blog/microsoft-bookings-vs-calendly",
-    "summary": "Microsoft 365 is a massive suite of tools ranging from household names like Word and PowerPoint to more obscure apps (ever heard of Clipchamp?). Microsoft Bookings, which is included with Microsoft 365, is an alternative to better-known meeting scheduler apps like Calendly. Let's get this out of the way: you probably haven't seen Microsoft Bookings on many best meeting scheduler lists. Rather than competing directly against powerful apps like Calendly, its raison d'\u00eatre has more to do with offer",
-    "source": "Zapier Blog",
-    "category": "automation",
-    "date": "2026-06-08T04:00:00+00:00"
+    "id": "b841cb395af6",
+    "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more",
+    "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+    "summary": "Apple primarily made the case for an improved experience with its longstanding Siri assistant, which like most other announcements had a hefty helping of AI.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-09T18:04:24+00:00"
   },
   {
     "id": "0d6f15e04d91",
-    "title": "Anthropic\u2019s Claude Fable is a version of Mythos the public can access today",
+    "title": "Anthropic\u2019s Claude Fable 5 is a version of Mythos the public can access today",
     "url": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
     "summary": "Anthropic is releasing Claude Fable 5, its first Mythos-class model available to the public. The model comes with guardrails that block responses in high-risk areas like cybersecurity and biology.",
     "source": "TechCrunch AI",
@@ -216,22 +225,13 @@
     "date": "2026-06-09T13:00:00+00:00"
   },
   {
-    "id": "adcc82140244",
-    "title": "How an e-scooter founder raised $5 million to build space data centers",
-    "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
-    "summary": "Orbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers.",
-    "source": "TechCrunch AI",
-    "category": "startups",
-    "date": "2026-06-09T12:00:00+00:00"
-  },
-  {
     "id": "5fc27872e27c",
     "title": "CompanyJun 8, 2026",
     "url": "https://openai.com/index/openai-submits-confidential-s-1/",
     "summary": "",
     "source": "OpenAI Blog",
     "category": "ai_lab",
-    "date": "2026-06-09T17:09:37.898821+00:00"
+    "date": "2026-06-09T18:30:19.601000+00:00"
   },
   {
     "id": "51fc7b83fb69",
@@ -240,7 +240,7 @@
     "summary": "",
     "source": "OpenAI Blog",
     "category": "ai_lab",
-    "date": "2026-06-09T17:09:37.898821+00:00"
+    "date": "2026-06-09T18:30:19.601131+00:00"
   },
   {
     "id": "a339a98002fb",
@@ -249,6 +249,6 @@
     "summary": "",
     "source": "OpenAI Blog",
     "category": "ai_lab",
-    "date": "2026-06-09T17:09:37.898821+00:00"
+    "date": "2026-06-09T18:30:19.601166+00:00"
   }
 ]
