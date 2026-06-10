@@ -1,0 +1,254 @@
+[
+  {
+    "id": "9e2b59b245ee",
+    "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+    "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+    "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-09T15:16:25+00:00"
+  },
+  {
+    "id": "5071c4550990",
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-09T14:10:19+00:00"
+  },
+  {
+    "id": "4eca20f9abf2",
+    "title": "Powering the future of robotics in Europe",
+    "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-09T14:02:33+00:00"
+  },
+  {
+    "id": "56ac2785e7ef",
+    "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+    "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+    "summary": "Results from a randomized controlled trial show the potential of Gemini\u2019s Guided Learning feature to boost engagement and accelerate learning.",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-08T13:04:59+00:00"
+  },
+  {
+    "id": "a5b423e0d34d",
+    "title": "We\u2019re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+    "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-05-21T19:46:42+00:00"
+  },
+  {
+    "id": "92ac31968c0b",
+    "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-09T19:38:28+00:00"
+  },
+  {
+    "id": "2428838e44d4",
+    "title": "Introducing North Mini Code: Cohere\u2019s First Model For Developers",
+    "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-09T15:56:23+00:00"
+  },
+  {
+    "id": "6d8d3867b1f2",
+    "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+    "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-09T10:46:19+00:00"
+  },
+  {
+    "id": "eb3e2d9f4685",
+    "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+    "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-09T00:00:00+00:00"
+  },
+  {
+    "id": "4cd526a0df04",
+    "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+    "url": "https://huggingface.co/blog/openenv-agentic-rl",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-08T00:00:00+00:00"
+  },
+  {
+    "id": "77f379ed5735",
+    "title": "Best Free Image Generators on Hugging Face Right Now!",
+    "url": "https://www.kdnuggets.com/best-free-image-generators-on-hugging-face-right-now",
+    "summary": "This article cuts through the 90,000 options to the seven models worth your time in 2026.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-09T14:00:10+00:00"
+  },
+  {
+    "id": "8708700c8ba8",
+    "title": "10 GitHub Repositories for Web Development in Python",
+    "url": "https://www.kdnuggets.com/10-github-repositories-for-web-development-in-python",
+    "summary": "Explore the best Python web development repositories for building APIs, full-stack web apps, dashboards, machine learning demos, internal tools, and interactive Python-based user interfaces.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-09T12:00:57+00:00"
+  },
+  {
+    "id": "ead9501ca7c6",
+    "title": "Why Do LLMs Corrupt Your Documents When You Delegate?",
+    "url": "https://www.kdnuggets.com/why-do-llms-corrupt-your-documents-when-you-delegate",
+    "summary": "Analyzing several reasons why structural content decay may happen when asking LLMs to perform complex document editing for us.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-08T16:00:00+00:00"
+  },
+  {
+    "id": "6ab4a995214c",
+    "title": "Anthropic\u2019s Complete Guide to Claude Skills Building",
+    "url": "https://www.kdnuggets.com/anthropics-complete-guide-to-claude-skills-building",
+    "summary": "This guide covers the complete picture: what skills are technically, how to plan and design them, the exact file structure and naming rules, how to write instructions that Claude follows reliably, a complete working skill built from scratch, how to test and distribute, and what to do when things go wrong.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-08T14:00:02+00:00"
+  },
+  {
+    "id": "e2bfa1160dff",
+    "title": "5 Must-Know Python Concepts for AI Engineers",
+    "url": "https://www.kdnuggets.com/5-must-know-python-concepts-for-ai-engineers",
+    "summary": "In this article, we will explore five critical Python concepts that every AI engineer must know to build scalable, secure, and robust systems.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-08T12:00:35+00:00"
+  },
+  {
+    "id": "876952686804",
+    "title": "The 5 best workflow orchestration tools in 2026",
+    "url": "https://zapier.com/blog/workflow-orchestration-tools",
+    "summary": "I went to my nephew's concert a few weeks ago, and quickly realized he has it easy. When I was in middle school band, our \"conductor\" was the gym teacher. He smelled of cigarettes and did his best, maybe. But someone was inevitably playing a few measures off or squeaking their oboe. My nephew's conductor appeared to be a professional; it was like the Trans-Siberian Orchestra the way she commanded those children and made sure everyone was playing when and how she wanted. At the risk of sounding l",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-09T04:00:00+00:00"
+  },
+  {
+    "id": "e355af7be1ae",
+    "title": "The best customer experience software in 2026",
+    "url": "https://zapier.com/blog/best-customer-experience-software",
+    "summary": "I canceled a subscription recently because I started questioning my experience. I'd been loyal for months, but the customer-facing AI agents felt like they were regressing, it took forever to speak to a human support agent, and all of the branding started targeting a much younger audience. They probably logged it as general churn; that's fine, I'm sure \"old man yells at cloud\" isn't something they would put into a report. Every single touchpoint you have with a customer shapes their experience,",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-09T04:00:00+00:00"
+  },
+  {
+    "id": "c1d3329b0d8d",
+    "title": "TidyCal vs. Calendly: Which meeting scheduler is best? [2026]",
+    "url": "https://zapier.com/blog/tidycal-vs-calendly",
+    "summary": "In the dark ages of scheduling meetings\u2014a mere decade ago\u2014back-and-forth emails were the standard. Then Calendly came along with its \"smart scheduling\" technology, which blocks out the times you aren't available and lets meeting attendees book whatever time works for them. Over time, it inspired legions of competitors. TidyCal is one of them, offering fewer features but significant cost savings. I'm a long-time Calendly user, and I spent time in TidyCal to compare the strengths of each tool. If",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-09T04:00:00+00:00"
+  },
+  {
+    "id": "e0af8849d4df",
+    "title": "The best Docusign alternatives in 2026",
+    "url": "https://zapier.com/blog/docusign-alternatives",
+    "summary": "Contracts, agreements, and other business documents going paperless hasn't meant the end of paperwork\u2014it just means you need to sign things in a different way. You no longer need to find a pen, scrawl your name a few times on a scrap of paper, and send it off with a courier (or hand it to an admin to scan). In most cases, all you need to do is type your name, click a box, or use your laptop's trackpad. And, most importantly, it's just as legally binding. Whether you're the one sending documents",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-09T04:00:00+00:00"
+  },
+  {
+    "id": "005743b76903",
+    "title": "Make integrations: Capabilities, limitations, and when to use Zapier",
+    "url": "https://zapier.com/blog/make-integrations",
+    "summary": "I have a particular brand of curiosity that kicks in the moment I find out another tool does roughly what the one I'm using does, possibly for less money, possibly with more features. It's a fun and emotionally healthy way to spend an afternoon\u2014hunched over my laptop like a gargoyle trying to figure out whether I'm about to save money or accidentally volunteer myself for a part-time job maintaining workflows. That's usually the rabbit hole Make sends people down. On paper, it sounds compelling:",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-09T04:00:00+00:00"
+  },
+  {
+    "id": "db7dea1c0ca6",
+    "title": "Meta signs first AI data center deal in India with Reliance",
+    "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+    "summary": "The 168-megawatt facility will support Meta's global AI computing needs and can be expanded over time.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-10T07:05:26+00:00"
+  },
+  {
+    "id": "f5f16b778aa5",
+    "title": "Google just fired a warning shot in the AI subscription price wars",
+    "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+    "summary": "Google just made it significantly cheaper to enjoy its budget AI subscription tier.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-10T00:26:10+00:00"
+  },
+  {
+    "id": "e6f44b6ef767",
+    "title": "How Justin Ernest invested nearly $500M into hot startups without a traditional VC fund",
+    "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/",
+    "summary": "Instead of spending a year raising a formal venture fund, the Sabertooth VC founder used a captive network of LPs to invest in startups like Anthropic, Anduril, and SpaceX.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-09T23:17:51+00:00"
+  },
+  {
+    "id": "41d61a583cc5",
+    "title": "Hey, Siri, here\u2019s what I actually want from AI",
+    "url": "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
+    "summary": "I'm desperate for a personal AI assistant, but do I really want to become the kind of person who can't function without the friendly robot voice in my phone?",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-09T20:50:17+00:00"
+  },
+  {
+    "id": "344b80419ef8",
+    "title": "Anthropic\u2019s Fable 5 can make weirdly fun video games with the click of a button",
+    "url": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
+    "summary": "Anthropic's Claude Fable 5 is going to be a big hit with the web's vibe coders.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-09T20:37:49+00:00"
+  },
+  {
+    "id": "5fc27872e27c",
+    "title": "CompanyJun 8, 2026",
+    "url": "https://openai.com/index/openai-submits-confidential-s-1/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-06-10T07:07:02.041216+00:00"
+  },
+  {
+    "id": "51fc7b83fb69",
+    "title": "ResearchJun 4, 2026",
+    "url": "https://openai.com/index/chatgpt-memory-dreaming/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-06-10T07:07:02.041368+00:00"
+  },
+  {
+    "id": "a339a98002fb",
+    "title": "ProductJun 3, 2026",
+    "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-06-10T07:07:02.041403+00:00"
+  }
+]

@@ -1,0 +1,62 @@
+---AI RADAR AFRICA BRIEF---
+Date: June 10, 2026
+
+🔴 TOP STORY
+Title: Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech
+Score: 4.1/10
+Source: Hugging Face  |  https://huggingface.co/blog/ServiceNow-AI/code-switching
+What happened: 
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟡 SECONDARY STORY
+Title: The Open Source Community is backing OpenEnv for Agentic RL
+Score: 4.1/10
+Source: Hugging Face  |  https://huggingface.co/blog/openenv-agentic-rl
+What happened: 
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟢 EMERGING TREND
+Title: Introducing North Mini Code: Cohere’s First Model For Developers
+Score: 3.2/10
+Source: Hugging Face  |  https://huggingface.co/blog/CohereLabs/introducing-north-mini-code
+What happened: 
+Why it matters: Breaking/new, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+---PODCAST SCRIPT---
+Episode Title: The Week in AI — Can Voice Agents Handle Bilingual Customers? Bench
+
+Intro (30 sec):
+This week, Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech. Here's why it matters for African tech pros.
+
+Segment 1 — Can Voice Agents Handle Bilingual Customers? Bench (2 min):
+- What happened: 
+- Why it matters: high impact, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 2 — The Open Source Community is backing OpenEnv for A (2 min):
+- What happened: 
+- Why it matters: high impact, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 3 — African Angle (1 min):
+What's moving in Kenya/Africa this week — jobs, funding, and policy worth watching.
+
+Outro (30 sec):
+Subscribe for weekly AI trends. Follow @jowac254 on TikTok. See you next week.
+
+---LINKEDIN POST---
+What in AI actually matters for your role this week? Here are 3:
+
+1. Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech — high impact, affects tech workflows.
+2. The Open Source Community is backing OpenEnv for Agentic RL — high impact, affects tech workflows.
+3. Introducing North Mini Code: Cohere’s First Model For Developers — breaking/new, affects tech workflows.
+
+What are you seeing in your network?
+
+#AI #DataScience #AfricaTech #Kenya #MLAfrica
