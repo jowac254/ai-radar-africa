@@ -1,0 +1,37 @@
+---AI RADAR AFRICA BRIEF---
+Date: June 11, 2026
+
+🔴 TOP STORY
+Title: Which AI models can you automate on Zapier? (Opus 4.8, Gemini 3.5 Flash, and more)
+Score: 6.1/10
+Source: Zapier Blog  |  https://zapier.com/blog/ai-models-on-zapier
+What happened: New AI models launch practically every week, and keeping up with which ones to use for specific workflows is a job in itself. Consider this article your living reference. At Zapier, we run every model through AutomationBench. It's our benchmark for testing how well models carry o
+Why it matters: Breaking/new, affects tech workflows.
+African angle: A global trend African data professionals should track and adapt early.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+---PODCAST SCRIPT---
+Episode Title: The Week in AI — Which AI models can you automate on Zapier? (Opus 
+
+Intro (30 sec):
+This week, Which AI models can you automate on Zapier? (Opus 4.8, Gemini 3.5 Flash, and more). Here's why it matters for African tech pros.
+
+Segment 1 — Which AI models can you automate on Zapier? (Opus  (2 min):
+- What happened: New AI models launch practically every week, and keeping up with which ones to use for specific workflows is a job in itself. Consider this article yo
+- Why it matters: breaking/new, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 3 — African Angle (1 min):
+What's moving in Kenya/Africa this week — jobs, funding, and policy worth watching.
+
+Outro (30 sec):
+Subscribe for weekly AI trends. Follow @jowac254 on TikTok. See you next week.
+
+---LINKEDIN POST---
+What in AI actually matters for your role this week? Here are 3:
+
+1. Which AI models can you automate on Zapier? (Opus 4.8, Gemini 3.5 Flash, and more) — breaking/new, affects tech workflows.
+
+What are you seeing in your network?
+
+#AI #DataScience #AfricaTech #Kenya #MLAfrica
