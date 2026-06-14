@@ -1,0 +1,62 @@
+---AI RADAR AFRICA BRIEF---
+Date: June 14, 2026
+
+🔴 TOP STORY
+Title: Investing in multi-agent AI safety research
+Score: 4.3/10
+Source: Google DeepMind  |  https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/
+What happened: Google DeepMind and partners announce a $10M funding call for multi-agent safety research.
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟡 SECONDARY STORY
+Title: What is generative AI?
+Score: 3.7/10
+Source: Zapier Blog  |  https://zapier.com/blog/generative-ai
+What happened: If you've tried ChatGPT, Microsoft Copilot, Nano Banana, Grok, or any other AI chatbot or image generator, you've used generative AI (also called GenAI). Over the past few years, huge developments in generative AI and computing power have taken these kinds of tools out of researc
+Why it matters: Affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟢 EMERGING TREND
+Title: Introducing North Mini Code: Cohere’s First Model For Developers
+Score: 3.2/10
+Source: Hugging Face  |  https://huggingface.co/blog/CohereLabs/introducing-north-mini-code
+What happened: 
+Why it matters: Breaking/new, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+---PODCAST SCRIPT---
+Episode Title: The Week in AI — Investing in multi-agent AI safety research
+
+Intro (30 sec):
+This week, Investing in multi-agent AI safety research. Here's why it matters for African tech pros.
+
+Segment 1 — Investing in multi-agent AI safety research (2 min):
+- What happened: Google DeepMind and partners announce a $10M funding call for multi-agent safety research.
+- Why it matters: high impact, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 2 — What is generative AI? (2 min):
+- What happened: If you've tried ChatGPT, Microsoft Copilot, Nano Banana, Grok, or any other AI chatbot or image generator, you've used generative AI (also called GenA
+- Why it matters: affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 3 — African Angle (1 min):
+What's moving in Kenya/Africa this week — jobs, funding, and policy worth watching.
+
+Outro (30 sec):
+Subscribe for weekly AI trends. Follow @jowac254 on TikTok. See you next week.
+
+---LINKEDIN POST---
+What in AI actually matters for your role this week? Here are 3:
+
+1. Investing in multi-agent AI safety research — high impact, affects tech workflows.
+2. What is generative AI? — affects tech workflows.
+3. Introducing North Mini Code: Cohere’s First Model For Developers — breaking/new, affects tech workflows.
+
+What are you seeing in your network?
+
+#AI #DataScience #AfricaTech #Kenya #MLAfrica
