@@ -1,0 +1,62 @@
+---AI RADAR AFRICA BRIEF---
+Date: June 15, 2026
+
+🔴 TOP STORY
+Title: Investing in multi-agent AI safety research
+Score: 4.3/10
+Source: Google DeepMind  |  https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/
+What happened: Google DeepMind and partners announce a $10M funding call for multi-agent safety research.
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟡 SECONDARY STORY
+Title: The Open Source Community is backing OpenEnv for Agentic RL
+Score: 4.1/10
+Source: Hugging Face  |  https://huggingface.co/blog/openenv-agentic-rl
+What happened: 
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟢 EMERGING TREND
+Title: The 6 best AI governance tools in 2026
+Score: 3.0/10
+Source: Zapier Blog  |  https://zapier.com/blog/ai-governance-tools
+What happened: I'll never forget the first time my childhood dog betrayed me. Before the incident, she was completely fine alone, knew every trick in the book, and only barked at the mailman and other potential serial killers. Then came that fateful night. I left for two hours, returning to shr
+Why it matters: Breaking/new, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+---PODCAST SCRIPT---
+Episode Title: The Week in AI — Investing in multi-agent AI safety research
+
+Intro (30 sec):
+This week, Investing in multi-agent AI safety research. Here's why it matters for African tech pros.
+
+Segment 1 — Investing in multi-agent AI safety research (2 min):
+- What happened: Google DeepMind and partners announce a $10M funding call for multi-agent safety research.
+- Why it matters: high impact, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 2 — The Open Source Community is backing OpenEnv for A (2 min):
+- What happened: 
+- Why it matters: high impact, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 3 — African Angle (1 min):
+What's moving in Kenya/Africa this week — jobs, funding, and policy worth watching.
+
+Outro (30 sec):
+Subscribe for weekly AI trends. Follow @jowac254 on TikTok. See you next week.
+
+---LINKEDIN POST---
+What in AI actually matters for your role this week? Here are 3:
+
+1. Investing in multi-agent AI safety research — high impact, affects tech workflows.
+2. The Open Source Community is backing OpenEnv for Agentic RL — high impact, affects tech workflows.
+3. The 6 best AI governance tools in 2026 — breaking/new, affects tech workflows.
+
+What are you seeing in your network?
+
+#AI #DataScience #AfricaTech #Kenya #MLAfrica
