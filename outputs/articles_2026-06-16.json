@@ -1,0 +1,272 @@
+[
+  {
+    "id": "277040b31b6e",
+    "title": "DiffusionGemma: 4x faster text generation",
+    "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-10T16:24:11+00:00"
+  },
+  {
+    "id": "d4285fc1570d",
+    "title": "Investing in multi-agent AI safety research",
+    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-10T10:21:19+00:00"
+  },
+  {
+    "id": "9e2b59b245ee",
+    "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+    "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+    "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-09T15:16:25+00:00"
+  },
+  {
+    "id": "5071c4550990",
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-09T14:10:19+00:00"
+  },
+  {
+    "id": "4eca20f9abf2",
+    "title": "Powering the future of robotics in Europe",
+    "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-09T14:02:33+00:00"
+  },
+  {
+    "id": "446830a5c044",
+    "title": "olmo-eval: An evaluation workbench for the model development loop",
+    "url": "https://huggingface.co/blog/allenai/olmo-eval",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-12T15:56:10+00:00"
+  },
+  {
+    "id": "9a812e42d024",
+    "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+    "url": "https://huggingface.co/blog/torch-mlp-fusion",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-11T00:00:00+00:00"
+  },
+  {
+    "id": "6d8d3867b1f2",
+    "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+    "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-09T10:46:19+00:00"
+  },
+  {
+    "id": "eb3e2d9f4685",
+    "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+    "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-09T00:00:00+00:00"
+  },
+  {
+    "id": "4cd526a0df04",
+    "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+    "url": "https://huggingface.co/blog/openenv-agentic-rl",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-06-08T00:00:00+00:00"
+  },
+  {
+    "id": "a5bd2219ed6f",
+    "title": "Building Time-Series Machine Learning Models with sktime in Python",
+    "url": "https://www.kdnuggets.com/building-time-series-machine-learning-models-with-sktime-in-python",
+    "summary": "In this article, we\u2019ll build time-series machine learning models in Python using sktime and explore its core data structures for forecasting workflows.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-15T14:00:02+00:00"
+  },
+  {
+    "id": "4b07f4f58d54",
+    "title": "3 Pandas Tricks for Data Cleaning & Preparation",
+    "url": "https://www.kdnuggets.com/3-pandas-tricks-for-data-cleaning-preparation",
+    "summary": "In this article, we will walk through three essential Pandas tricks to clean and prepare your data efficiently: declarative method chaining, memory and speed optimization via categoricals and vectorized string accessors, and group-aware imputation using .transform().",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-15T12:00:35+00:00"
+  },
+  {
+    "id": "40f912dfe66d",
+    "title": "Pairing Claude Code with Local Models",
+    "url": "https://www.kdnuggets.com/pairing-claude-code-with-local-models",
+    "summary": "Local models in 2026 are good enough. For the tasks Claude Code handles daily: code completion, refactoring, debugging, codebase explanation; a well-chosen quantized model running locally covers the vast majority of real use cases at zero per-token cost and with no rate limits.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-12T14:00:59+00:00"
+  },
+  {
+    "id": "3a38311f8893",
+    "title": "3 NumPy Tricks for Numerical Performance",
+    "url": "https://www.kdnuggets.com/3-numpy-tricks-for-numerical-performance",
+    "summary": "In this article, we will cover three essential NumPy tricks to optimize your code: vectorization and broadcasting, in-place operations, and leveraging memory views instead of copies.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-12T12:00:36+00:00"
+  },
+  {
+    "id": "7307bb145588",
+    "title": "Feature Stores from Scratch: A Minimal Working Implementation",
+    "url": "https://www.kdnuggets.com/feature-stores-from-scratch-a-minimal-working-implementation",
+    "summary": "Build the five components every feature store needs, then see where AI changes the design.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-06-11T14:00:23+00:00"
+  },
+  {
+    "id": "837fd0c75463",
+    "title": "Meet the first 2026 Zappy Award monthly winners: May 2026",
+    "url": "https://zapier.com/blog/zappy-award-monthly-winners-may-2026",
+    "summary": "We launched the Zappy Awards in May to find the builders quietly redesigning how work gets done at their companies. We're on the hunt for the people who see a problem, pick up Zapier, and do something about it. We've hit 50 submissions. We weren't expecting the bar to be this high this fast. So we've decided to move up our first monthly wins to start right now! These are the first two monthly winners. Rachael Silvano, Community Strategy Lead at Articulate Rachael manages E-Learning Heroes, a co",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-16T04:00:00+00:00"
+  },
+  {
+    "id": "863b65886d16",
+    "title": "AI in the workplace: What it looks like now and where we're headed",
+    "url": "https://zapier.com/blog/ai-in-the-workplace",
+    "summary": "I'm not ruling out a future where the Terminator walks through the office doors and asks where he can find me. But until then, AI in the workplace doesn't have to be scary. In reality, it falls more on the spectrum from helpful to overhyped\u2014and the trick is to calibrate accordingly. There are a lot of ways to use AI at work. Maybe Granola writes your meeting recaps, or you embed a chatbot into your website to answer customer questions. Or maybe you use MCP to have ChatGPT or Cursor take actions",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-15T05:00:00+00:00"
+  },
+  {
+    "id": "702e0e538423",
+    "title": "Claude 5: What you need to know about Anthropic's AI models and chatbot",
+    "url": "https://zapier.com/blog/claude-ai",
+    "summary": "I've been using Claude long enough to remember when the main selling point was that it was a nicer chatbot to talk to than the alternatives. (That's still true, for what it's worth.) But Claude no longer just talks to you about your work; it also does your work for you. You can give Claude a project, head off to make a coffee, and check in occasionally when questions pop up. For enterprises looking to get real productivity gains from AI, Claude has become the default choice. And Claude is equall",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-14T04:00:00+00:00"
+  },
+  {
+    "id": "e1b08cfcaaf6",
+    "title": "What is Claude Mythos? And what happened to Claude Fable 5?",
+    "url": "https://zapier.com/blog/claude-mythos",
+    "summary": "On April 7, 2026, Claude Mythos Preview was officially announced, but it was apparently too dangerous to release. According to Anthropic, Claude Mythos represented a unique cybersecurity threat (they claimed that \"the fallout\u2014for economies, public safety, and national security\u2014could be severe.\") Instead of releasing Mythos to the general public, they spun up Project Glasswing, a cybersecurity initiative that also involved some big-name companies. The idea was that they'd be able to deploy Mythos",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-14T04:00:00+00:00"
+  },
+  {
+    "id": "8b721a343e42",
+    "title": "Calendly vs. Google Calendar: Which should you choose? [2026]",
+    "url": "https://zapier.com/blog/calendly-vs-google-calendar",
+    "summary": "Here's Google's simple (but powerful) software playbook: find products people like, make a Google-ized copy, and give it away for free. Love Dropbox and Zoom? Google Drive and Google Meet are solid substitutes, and you won't pay a thing. Calendly is the next app on Google's radar. Google Calendar's appointment scheduling feature, which started off as a barebones alternative, has gotten better over time. It's not as powerful as Calendly, but it's a reliable way for Google users to create booking",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-06-12T05:00:00+00:00"
+  },
+  {
+    "id": "a399e347cca7",
+    "title": "Malaysia\u2019s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
+    "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+    "summary": "Respond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-16T06:59:00+00:00"
+  },
+  {
+    "id": "ea8ad6c2bdaa",
+    "title": "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google\u2019s Israel, ICE ties",
+    "url": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+    "summary": "AI is once again at the heart of a college graduation protest \u2014 this time for the technology's use in Google's defense contracts.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-15T23:51:44+00:00"
+  },
+  {
+    "id": "71ed2eea4532",
+    "title": "The US government\u2019s Anthropic models ban was never about an AI jailbreak",
+    "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+    "summary": "The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune from U.S. government interference.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-15T21:50:21+00:00"
+  },
+  {
+    "id": "a3f67405a753",
+    "title": "Meta\u2019s new \u2018AI Mode\u2019 on Facebook pulls from public info across its platforms",
+    "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+    "summary": "Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-15T18:30:58+00:00"
+  },
+  {
+    "id": "d69d5c32ea58",
+    "title": "SpaceX is public: Everything you need to know post-IPO",
+    "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+    "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-06-15T18:30:34+00:00"
+  },
+  {
+    "id": "80e4b64bae53",
+    "title": "ProductJun 14, 2026",
+    "url": "https://openai.com/index/introducing-openai-partner-network/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-06-16T08:43:20.517715+00:00"
+  },
+  {
+    "id": "acda82974036",
+    "title": "AI AdoptionJun 12, 2026",
+    "url": "https://openai.com/index/academy-courses-applying-ai-at-work/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-06-16T08:43:20.517770+00:00"
+  },
+  {
+    "id": "b3498e123f1f",
+    "title": "Applied AIJun 11, 2026",
+    "url": "https://openai.com/index/using-codex-to-simulate-black-holes/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-06-16T08:43:20.517806+00:00"
+  },
+  {
+    "id": "1108424b249e",
+    "title": "CompanyJun 11, 2026",
+    "url": "https://openai.com/index/openai-to-acquire-ona/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-06-16T08:43:20.517844+00:00"
+  },
+  {
+    "id": "98b576ca3ea4",
+    "title": "CompanyJun 10, 2026",
+    "url": "https://openai.com/index/openai-on-oracle-cloud/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-06-16T08:43:20.517881+00:00"
+  }
+]

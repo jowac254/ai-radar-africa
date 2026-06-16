@@ -1,0 +1,62 @@
+---AI RADAR AFRICA BRIEF---
+Date: June 16, 2026
+
+🔴 TOP STORY
+Title: Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions
+Score: 4.8/10
+Source: TechCrunch AI  |  https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/
+What happened: Respond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟡 SECONDARY STORY
+Title: Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms
+Score: 4.4/10
+Source: TechCrunch AI  |  https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/
+What happened: Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.
+Why it matters: Breaking/new, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟢 EMERGING TREND
+Title: Investing in multi-agent AI safety research
+Score: 4.3/10
+Source: Google DeepMind  |  https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/
+What happened: Google DeepMind and partners announce a $10M funding call for multi-agent safety research.
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+---PODCAST SCRIPT---
+Episode Title: The Week in AI — Malaysia’s AI agent-powered messaging app Respond.
+
+Intro (30 sec):
+This week, Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions. Here's why it matters for African tech pros.
+
+Segment 1 — Malaysia’s AI agent-powered messaging app Respond. (2 min):
+- What happened: Respond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.
+- Why it matters: high impact, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 2 — Meta’s new ‘AI Mode’ on Facebook pulls from public (2 min):
+- What happened: Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race 
+- Why it matters: breaking/new, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 3 — African Angle (1 min):
+What's moving in Kenya/Africa this week — jobs, funding, and policy worth watching.
+
+Outro (30 sec):
+Subscribe for weekly AI trends. Follow @jowac254 on TikTok. See you next week.
+
+---LINKEDIN POST---
+What in AI actually matters for your role this week? Here are 3:
+
+1. Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions — high impact, affects tech workflows.
+2. Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms — breaking/new, affects tech workflows.
+3. Investing in multi-agent AI safety research — high impact, affects tech workflows.
+
+What are you seeing in your network?
+
+#AI #DataScience #AfricaTech #Kenya #MLAfrica
