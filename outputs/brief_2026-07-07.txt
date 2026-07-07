@@ -1,0 +1,62 @@
+---AI RADAR AFRICA BRIEF---
+Date: July 07, 2026
+
+🔴 TOP STORY
+Title: Getting Started with Hugging Face ML Intern: Your First ML Agent
+Score: 4.8/10
+Source: KDnuggets  |  https://www.kdnuggets.com/getting-started-with-hugging-face-ml-intern-your-first-ml-agent
+What happened: You describe the model. It writes the code, runs the training, and ships the checkpoint. Welcome to ML Intern.
+Why it matters: Breaking/new, affects tech workflows.
+African angle: A global trend African data professionals should track and adapt early.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟡 SECONDARY STORY
+Title: Google DeepMind and A24 announce first-of-its-kind research partnership
+Score: 4.5/10
+Source: Google DeepMind  |  https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/
+What happened: 
+Why it matters: High impact, breaking/new.
+African angle: Background context for staying current on global AI direction.
+Your move: Read the source while it's fresh — early movers get the edge.
+
+🟢 EMERGING TREND
+Title: 5 Ways Small Language Models Are Powering Next-Gen Agents
+Score: 4.5/10
+Source: KDnuggets  |  https://www.kdnuggets.com/5-ways-small-language-models-are-powering-next-gen-agents
+What happened: This article looks at five concrete ways SLMs are showing up inside next-generation agents right now, from the research backing them to the tools and numbers worth knowing if you're deciding whether your next agent needs a frontier model at all
+Why it matters: High impact, affects tech workflows.
+African angle: Background context for staying current on global AI direction.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+---PODCAST SCRIPT---
+Episode Title: The Week in AI — Getting Started with Hugging Face ML Intern: Your 
+
+Intro (30 sec):
+This week, Getting Started with Hugging Face ML Intern: Your First ML Agent. Here's why it matters for African tech pros.
+
+Segment 1 — Getting Started with Hugging Face ML Intern: Your  (2 min):
+- What happened: You describe the model. It writes the code, runs the training, and ships the checkpoint. Welcome to ML Intern.
+- Why it matters: breaking/new, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 2 — Google DeepMind and A24 announce first-of-its-kind (2 min):
+- What happened: 
+- Why it matters: high impact, breaking/new
+- Your move: Read the source while it's fresh — early movers get the edge.
+
+Segment 3 — African Angle (1 min):
+What's moving in Kenya/Africa this week — jobs, funding, and policy worth watching.
+
+Outro (30 sec):
+Subscribe for weekly AI trends. Follow @jowac254 on TikTok. See you next week.
+
+---LINKEDIN POST---
+What in AI actually matters for your role this week? Here are 3:
+
+1. Getting Started with Hugging Face ML Intern: Your First ML Agent — breaking/new, affects tech workflows.
+2. Google DeepMind and A24 announce first-of-its-kind research partnership — high impact, breaking/new.
+3. 5 Ways Small Language Models Are Powering Next-Gen Agents — high impact, affects tech workflows.
+
+What are you seeing in your network?
+
+#AI #DataScience #AfricaTech #Kenya #MLAfrica
