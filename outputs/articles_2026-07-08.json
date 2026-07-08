@@ -1,0 +1,272 @@
+[
+  {
+    "id": "19d1bfd8b691",
+    "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+    "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-07-03T14:25:43+00:00"
+  },
+  {
+    "id": "d866a21bc334",
+    "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+    "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-30T16:02:40+00:00"
+  },
+  {
+    "id": "8efda96ee963",
+    "title": "Introducing computer use in Gemini 3.5 Flash",
+    "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+    "summary": "",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-24T16:30:01+00:00"
+  },
+  {
+    "id": "ec6de238074c",
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-16T21:29:50+00:00"
+  },
+  {
+    "id": "6c3ecf06de23",
+    "title": "Securing the future of AI agents",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+    "source": "Google DeepMind",
+    "category": "ai_lab",
+    "date": "2026-06-16T15:46:31+00:00"
+  },
+  {
+    "id": "830b87f8c5bf",
+    "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+    "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-07-07T21:15:33+00:00"
+  },
+  {
+    "id": "37a75100de70",
+    "title": "Hugging Face Models on Foundry Managed Compute",
+    "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-07-07T15:20:06+00:00"
+  },
+  {
+    "id": "38da928fb2b9",
+    "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+    "url": "https://huggingface.co/blog/skypilot-hf-storage",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-07-07T00:00:00+00:00"
+  },
+  {
+    "id": "d798ac5f5ede",
+    "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+    "url": "https://huggingface.co/blog/lerobot-release-v060",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-07-07T00:00:00+00:00"
+  },
+  {
+    "id": "3dd55d889219",
+    "title": "PRX Part 4: Our Data Strategy",
+    "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+    "summary": "",
+    "source": "Hugging Face",
+    "category": "ml",
+    "date": "2026-07-06T15:30:55+00:00"
+  },
+  {
+    "id": "05e34e6eeec6",
+    "title": "SQL vs Pandas vs AI Agents: Which Solves Analytics Problems Best?",
+    "url": "https://www.kdnuggets.com/sql-vs-pandas-vs-ai-agents-which-solves-analytics-problems-best",
+    "summary": "Same three analytics problems, three tools, eight dimensions, measured with real execution times and real agent prompts.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-07-07T16:00:29+00:00"
+  },
+  {
+    "id": "2ece554c8c9b",
+    "title": "Zero-Shot Local Document Parsing with Gemma 4: Treating PDFs as Images",
+    "url": "https://www.kdnuggets.com/zero-shot-local-document-parsing-with-gemma-4-treating-pdfs-as-images",
+    "summary": "Treating PDFs as images and feeding those images to Gemma 4 dissolves the scanned-versus-digital distinction that makes every text-extraction pipeline fragile. Fix that.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-07-07T14:00:04+00:00"
+  },
+  {
+    "id": "6376d52549be",
+    "title": "10 Probability Concepts for Machine Learning Explained Simply",
+    "url": "https://www.kdnuggets.com/10-probability-concepts-for-machine-learning-explained-simply",
+    "summary": "A model is almost never 100% sure of anything. These 10 probability concepts explain how it makes decisions anyway.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-07-07T12:00:36+00:00"
+  },
+  {
+    "id": "93078808d02b",
+    "title": "Data Scientists Are Becoming AI Managers, Not Model Builders",
+    "url": "https://www.kdnuggets.com/data-scientists-are-becoming-ai-managers-not-model-builders",
+    "summary": "The role is shifting from building models to managing them.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-07-06T16:00:09+00:00"
+  },
+  {
+    "id": "a64b51e441e0",
+    "title": "Getting Started with Hugging Face ML Intern: Your First ML Agent",
+    "url": "https://www.kdnuggets.com/getting-started-with-hugging-face-ml-intern-your-first-ml-agent",
+    "summary": "You describe the model. It writes the code, runs the training, and ships the checkpoint. Welcome to ML Intern.",
+    "source": "KDnuggets",
+    "category": "data_science",
+    "date": "2026-07-06T14:00:31+00:00"
+  },
+  {
+    "id": "10182b6b9dbd",
+    "title": "Zoom vs. Teams: Which is best? [2026]",
+    "url": "https://zapier.com/blog/zoom-vs-teams",
+    "summary": "Microsoft Teams and Zoom are both excellent video conferencing and collaboration apps, and over the last few years, Zoom has added all sorts of all-in-one features that make the Zoom vs. Teams comparison more relevant than ever. I've used both apps a lot in the past, and to write this guide, I spent more time diving deep into each of these tools and exploring all their features to pull out the most important differences that still exist between them. Based on my past experiences of using these",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-07-07T05:00:00+00:00"
+  },
+  {
+    "id": "12f9085c6997",
+    "title": "What is ambient AI?",
+    "url": "https://zapier.com/blog/ambient-ai",
+    "summary": "Chatbots keep getting smarter, but they're creating a new kind of busywork. Even if they simplify an entire workflow, you still have to open an app, start a new chat, and get to the objective prompt-by-prompt. If you're the one doing the repetitive work, who's actually the copilot in this equation? Ambient AI puts you back into the pilot seat. It sits in the background, reads your context, and acts when needed, not when you call it. Here's how to stop defaulting to chatbots that give you more wo",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-07-07T04:00:00+00:00"
+  },
+  {
+    "id": "ffbca832cd46",
+    "title": "What is a token in AI?",
+    "url": "https://zapier.com/blog/what-is-a-token-in-ai",
+    "summary": "Understanding what tokens in AI are matters more now than it did even a year ago. Tokens have gone from a background technical detail to the primary usage limit and billing unit for top AI models. If you've ever hit your usage limit with Claude Code, you've hit a token limit. If you've ever wondered why switching to a reasoning model burned through your quota faster, that's tokens, too. How AI models read your input, generate a response, think through hard problems, and rack up costs\u2014it all com",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-07-07T04:00:00+00:00"
+  },
+  {
+    "id": "5e9d111b5bcb",
+    "title": "The 7 best database-powered app builders in 2026",
+    "url": "https://zapier.com/blog/simple-database-app-builders",
+    "summary": "Spreadsheets are fantastic. You can put together an accounting system, a task manager, or an inventory tracker with columns, rows, and formulas\u2014all without slamming into a wall of code at any point. But there's a cap to how much you can achieve with spreadsheets alone. If you want to view, manipulate, and understand your data better, you want a database tool. Not all databases are flexible and easy to use, though, which is why I rounded up the ones that are right on the money: a perfect blend of",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-07-07T04:00:00+00:00"
+  },
+  {
+    "id": "db9f08975445",
+    "title": "34% of people shipping software using AI tools have no formal programming background",
+    "url": "https://zapier.com/blog/building-business-software",
+    "summary": "AI was impressive enough when skilled developers could use ChatGPT to troubleshoot code. But now, the tech has evolved to the point that workers with no programming background can use AI to build apps from scratch, refine them, and ship them, all in a matter of days or even hours. Some folks call it vibe coding, but that undersells what's actually happening. There's a lot more than vibes behind these projects. The vibey part comes from how easy it is for someone to describe what they want to cr",
+    "source": "Zapier Blog",
+    "category": "automation",
+    "date": "2026-07-06T22:00:00+00:00"
+  },
+  {
+    "id": "43c24424eacf",
+    "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+    "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+    "summary": "The new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-07-07T22:18:10+00:00"
+  },
+  {
+    "id": "ac26af5ade46",
+    "title": "Why the rise of open source AI isn\u2019t hurting Anthropic \u2026 yet",
+    "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+    "summary": "Open source models\u2019 success isn\u2019t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-07-07T20:04:32+00:00"
+  },
+  {
+    "id": "6d46c33e5722",
+    "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+    "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+    "summary": "Microsoft is the latest Silicon Valley giant to cut back on its AI spending.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-07-07T19:58:20+00:00"
+  },
+  {
+    "id": "0a5053c71615",
+    "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+    "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+    "summary": "The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-07-07T19:28:38+00:00"
+  },
+  {
+    "id": "ffc63549d918",
+    "title": "Claude Cowork expands to mobile and web",
+    "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+    "summary": "With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later \u2014 even if their laptop is closed.",
+    "source": "TechCrunch AI",
+    "category": "startups",
+    "date": "2026-07-07T16:27:18+00:00"
+  },
+  {
+    "id": "6eddadea6321",
+    "title": "EngineeringJun 30, 2026",
+    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-07-08T05:46:38.027699+00:00"
+  },
+  {
+    "id": "fa67f81d5d9d",
+    "title": "ResearchJun 30, 2026",
+    "url": "https://openai.com/index/introducing-genebench-pro/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-07-08T05:46:38.027760+00:00"
+  },
+  {
+    "id": "3abf3f1e48ef",
+    "title": "CompanyJun 28, 2026",
+    "url": "https://openai.com/index/hp-frontier-partnership/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-07-08T05:46:38.027803+00:00"
+  },
+  {
+    "id": "e42beeccabf0",
+    "title": "ProductJun 26, 2026",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-07-08T05:46:38.027845+00:00"
+  },
+  {
+    "id": "ea45897d2ef5",
+    "title": "CompanyJun 25, 2026",
+    "url": "https://openai.com/index/how-agents-are-transforming-work/",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "ai_lab",
+    "date": "2026-07-08T05:46:38.027907+00:00"
+  }
+]
