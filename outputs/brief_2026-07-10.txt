@@ -1,0 +1,52 @@
+---AI RADAR AFRICA BRIEF---
+Date: July 10, 2026
+
+🔴 TOP STORY
+Title: How to automate ChatGPT (GPT-5.6 Sol, GPT-5.6 Terra, and more)
+Score: 6.9/10
+Source: Zapier Blog  |  https://zapier.com/blog/automate-chatgpt
+What happened: In a livestream on July 9, OpenAI rolled out the red carpet for not one but three new models: Sol, Terra, and Luna. These celestial models mark three tiers within the GPT-5.6 generation, each built to cut down on how often you have to re-explain your context in ChatGPT. All three
+Why it matters: High impact, breaking/new, affects tech workflows.
+African angle: A global trend African data professionals should track and adapt early.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+🟡 SECONDARY STORY
+Title: Which AI models can you automate on Zapier? (GPT-5.6 Sol, Gemini 3.5 Flash, and more)
+Score: 6.9/10
+Source: Zapier Blog  |  https://zapier.com/blog/ai-models-on-zapier
+What happened: New AI models launch practically every week, and keeping up with which ones to use for specific workflows is a job in itself. Consider this article your living reference. At Zapier, we run every model through AutomationBench. It's our benchmark for testing how well models carry o
+Why it matters: High impact, breaking/new, affects tech workflows.
+African angle: A global trend African data professionals should track and adapt early.
+Your move: Explore how this tool/skill could slot into your workflow this week.
+
+---PODCAST SCRIPT---
+Episode Title: The Week in AI — How to automate ChatGPT (GPT-5.6 Sol, GPT-5.6 Terr
+
+Intro (30 sec):
+This week, How to automate ChatGPT (GPT-5.6 Sol, GPT-5.6 Terra, and more). Here's why it matters for African tech pros.
+
+Segment 1 — How to automate ChatGPT (GPT-5.6 Sol, GPT-5.6 Terr (2 min):
+- What happened: In a livestream on July 9, OpenAI rolled out the red carpet for not one but three new models: Sol, Terra, and Luna. These celestial models mark three 
+- Why it matters: high impact, breaking/new, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 2 — Which AI models can you automate on Zapier? (GPT-5 (2 min):
+- What happened: New AI models launch practically every week, and keeping up with which ones to use for specific workflows is a job in itself. Consider this article yo
+- Why it matters: high impact, breaking/new, affects tech workflows
+- Your move: Explore how this tool/skill could slot into your workflow this week.
+
+Segment 3 — African Angle (1 min):
+What's moving in Kenya/Africa this week — jobs, funding, and policy worth watching.
+
+Outro (30 sec):
+Subscribe for weekly AI trends. Follow @jowac254 on TikTok. See you next week.
+
+---LINKEDIN POST---
+What in AI actually matters for your role this week? Here are 3:
+
+1. How to automate ChatGPT (GPT-5.6 Sol, GPT-5.6 Terra, and more) — high impact, breaking/new, affects tech workflows.
+2. Which AI models can you automate on Zapier? (GPT-5.6 Sol, Gemini 3.5 Flash, and more) — high impact, breaking/new, affects tech workflows.
+
+What are you seeing in your network?
+
+#AI #DataScience #AfricaTech #Kenya #MLAfrica
