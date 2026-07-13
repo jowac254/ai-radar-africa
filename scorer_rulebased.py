@@ -3,6 +3,10 @@ AI Radar Africa - Rule-Based Scoring System
 Scores articles using keyword matching and source weighting.
 No external API, no API key, no cost.
 
+v3 changes:
+  - AI RELEVANCE GATE: stories with no AI-related keyword anywhere in the
+    title/summary get their final score halved. An African tech story
+    about WhatsApp usernames should not top an *AI* radar.
 v2 changes (mirrors scorer.py so both paths behave the same):
   - African source weights added (TechCabal, Techpoint, Disrupt Africa,
     TechMoran, Google News: AI Africa).
@@ -30,6 +34,27 @@ WEIGHTS = {
 THRESHOLD = 6.0
 AFRICA_BOOST = 1.0        # flat final-score bonus for African sources
 AFRICA_RELEVANCE_FLOOR = 8.0  # minimum african_relevance for African sources
+NON_AI_PENALTY = 0.5      # multiplier when a story has no AI keyword at all
+
+# Gate: at least one of these must appear for full score
+AI_TERMS = [
+    "ai", "artificial intelligence", "machine learning", "ml", "deep learning",
+    "llm", "large language model", "genai", "generative", "chatbot", "gpt",
+    "claude", "gemini", "copilot", "neural", "model", "agent", "automation",
+    "computer vision", "nlp", "data science", "algorithm", "robotics",
+]
+
+
+def _mentions_ai(text: str) -> bool:
+    text_low = f" {text.lower()} "
+    for term in AI_TERMS:
+        # word-boundary check for short terms like "ai"/"ml"
+        if len(term) <= 3:
+            if re.search(rf"\b{term}\b", text_low):
+                return True
+        elif term in text_low:
+            return True
+    return False
 
 # ── Keyword dictionaries (tune these freely) ─────────────────────────────────────
 
@@ -140,11 +165,17 @@ def score_article(article: dict) -> dict:
     if is_african_source:
         final = min(10.0, final + AFRICA_BOOST)
 
+    # AI gate: this is an AI radar, not a general tech radar
+    is_ai = _mentions_ai(text)
+    if not is_ai:
+        final *= NON_AI_PENALTY
+
     scores["final_score"] = round(final, 2)
     scores["passes_threshold"] = final >= THRESHOLD
 
     # Build a human-readable reason
     parts = []
+    if not is_ai: parts.append("not clearly AI-focused")
     if is_african_source: parts.append("African source")
     if african >= 8:  parts.append("strong African relevance")
     if impact >= 7:   parts.append("high impact")

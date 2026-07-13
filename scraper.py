@@ -2,6 +2,10 @@
 AI Radar Africa - Feed Scraper
 Pulls articles from core global + African sources via RSS + web scraping.
 
+v3 changes:
+  - FRESHNESS FILTER: articles older than MAX_AGE_DAYS are dropped at
+    scrape time. Fixes feeds that serve archive content (e.g. Disrupt
+    Africa returning 2024 stories) polluting a *daily* radar.
 v2 changes:
   - Added African tech sources (category "africa") — TechCabal, Techpoint,
     Disrupt Africa, TechMoran + a Google News query for African AI stories.
@@ -21,6 +25,8 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
+
+MAX_AGE_DAYS = 3   # a "daily radar" should never surface stale news
 
 # ── RSS Sources ────────────────────────────────────────────────────────────────
 SOURCES = [
@@ -107,6 +113,18 @@ def parse_date(entry) -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+def _too_old(iso_date: str) -> bool:
+    """True if the article is older than MAX_AGE_DAYS."""
+    try:
+        pub = datetime.fromisoformat(iso_date)
+        if pub.tzinfo is None:
+            pub = pub.replace(tzinfo=timezone.utc)
+        age = datetime.now(timezone.utc) - pub
+        return age.days > MAX_AGE_DAYS
+    except Exception:
+        return False   # if the date can't be parsed, keep the article
+
+
 # ── RSS Puller ─────────────────────────────────────────────────────────────────
 
 def pull_rss(source: dict, max_items: int = 5) -> list[dict]:
@@ -118,6 +136,9 @@ def pull_rss(source: dict, max_items: int = 5) -> list[dict]:
         for entry in feed.entries[:max_items]:
             url = entry.get("link", "")
             if not url:
+                continue
+            pub_date = parse_date(entry)
+            if _too_old(pub_date):
                 continue
             summary_raw = (
                 entry.get("summary", "")
@@ -131,7 +152,7 @@ def pull_rss(source: dict, max_items: int = 5) -> list[dict]:
                 "summary":  clean_html(summary_raw),
                 "source":   source["name"],
                 "category": source["category"],
-                "date":     parse_date(entry),
+                "date":     pub_date,
             })
         log.info(f"    → {len(articles)} articles")
         return articles
