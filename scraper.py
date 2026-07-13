@@ -1,6 +1,12 @@
 """
 AI Radar Africa - Feed Scraper
-Pulls articles from 8 core sources via RSS + web scraping.
+Pulls articles from core global + African sources via RSS + web scraping.
+
+v2 changes:
+  - Added African tech sources (category "africa") — TechCabal, Techpoint,
+    Disrupt Africa, TechMoran + a Google News query for African AI stories.
+  - URL normalization before hashing (strips ?utm_... params) so the same
+    story shared with different tracking links dedupes correctly.
 """
 
 import feedparser
@@ -11,6 +17,7 @@ import hashlib
 import logging
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
@@ -30,6 +37,18 @@ SOURCES = [
     {"name": "TechCrunch AI",   "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "category": "startups"},
     # Research
     {"name": "Papers With Code","url": "https://paperswithcode.com/latest.rss",               "category": "research"},
+
+    # African Tech — the differentiator. Category "africa" gets a scoring boost.
+    {"name": "TechCabal",        "url": "https://techcabal.com/feed/",       "category": "africa"},
+    {"name": "Techpoint Africa", "url": "https://techpoint.africa/feed/",    "category": "africa"},
+    {"name": "Disrupt Africa",   "url": "https://disrupt-africa.com/feed/",  "category": "africa"},
+    {"name": "TechMoran",        "url": "https://techmoran.com/feed/",       "category": "africa"},
+    {"name": "Google News: AI Africa",
+     "url": "https://news.google.com/rss/search?q=%22artificial+intelligence%22+Africa+startup",
+     "category": "africa"},
+    # Easy adds when you want more volume (uncomment to enable):
+    # {"name": "Techweez",     "url": "https://techweez.com/feed/",    "category": "africa"},
+    # {"name": "Ventureburn",  "url": "https://ventureburn.com/feed/", "category": "africa"},
 ]
 
 # OpenAI blog doesn't have RSS; we scrape it directly
@@ -46,9 +65,25 @@ HEADERS = {
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
+TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_term",
+                   "utm_content", "fbclid", "gclid", "ref"}
+
+
+def normalize_url(url: str) -> str:
+    """Strip tracking params so the same story dedupes across share links."""
+    try:
+        parts = urlsplit(url)
+        query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+                 if k.lower() not in TRACKING_PARAMS]
+        return urlunsplit((parts.scheme, parts.netloc, parts.path,
+                           urlencode(query), ""))
+    except Exception:
+        return url
+
+
 def article_id(url: str) -> str:
-    """Stable ID for deduplication."""
-    return hashlib.md5(url.encode()).hexdigest()[:12]
+    """Stable ID for deduplication (computed on the normalized URL)."""
+    return hashlib.md5(normalize_url(url).encode()).hexdigest()[:12]
 
 
 def clean_html(raw: str) -> str:
@@ -182,7 +217,8 @@ def run_scraper(max_per_source: int = 5) -> list[dict]:
         all_articles.extend(scrape_openai(source, max_per_source))
 
     unique = deduplicate(all_articles)
-    log.info(f"Total after dedup: {len(unique)} articles (from {len(all_articles)} raw)")
+    n_africa = sum(1 for a in unique if a.get("category") == "africa")
+    log.info(f"Total after dedup: {len(unique)} articles (from {len(all_articles)} raw, {n_africa} African)")
     return unique
 
 

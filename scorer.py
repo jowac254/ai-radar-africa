@@ -2,6 +2,17 @@
 AI Radar Africa - Scoring System
 Uses Claude API to score each article on 4 dimensions.
 Filters to top stories for the daily brief.
+
+v2 changes:
+  - Prompt now receives the article's source category and applies clear
+    bonus/penalty rules (African funding/policy bonus, listicle penalty,
+    "be harsh" calibration).
+  - Deterministic AFRICA_BOOST: articles scraped from African sources
+    (category == "africa") get +1.0 on the final score, capped at 10.
+    This guarantees African coverage competes with lab announcements
+    even when the model is conservative.
+  - Everything downstream is unchanged: same JSON fields, same
+    final_score / passes_threshold / one_line_reason keys.
 """
 
 import os
@@ -25,13 +36,15 @@ WEIGHTS = {
     "job_impact":        0.20,
 }
 
-THRESHOLD = 6.0   # minimum score to make the daily brief
+THRESHOLD = 6.0     # minimum score to make the daily brief
+AFRICA_BOOST = 1.0  # flat bonus for articles from African sources (category "africa")
 
-SCORING_PROMPT = """You are an AI trend analyst for Africa. Score this article for an African tech professional audience.
+SCORING_PROMPT = """You are the news editor for AI Radar Africa. Score this article for an African tech professional audience. Be harsh — most articles should NOT make the daily brief.
 
 Article:
 Title: {title}
 Source: {source}
+Source category: {category}
 Summary: {summary}
 
 Score each dimension 0-10 using these criteria:
@@ -40,7 +53,7 @@ IMPACT (0-10): How game-changing is this?
 - 9-10: New foundation model, major breakthrough, paradigm shift
 - 6-8: Significant tool release, important research finding
 - 3-5: Tool update, incremental improvement
-- 0-2: Minor news, opinion piece
+- 0-2: Minor news, opinion piece, listicle, sponsored content
 
 NOVELTY (0-10): How new is this information?
 - 9-10: First announcement, breaking news
@@ -49,17 +62,20 @@ NOVELTY (0-10): How new is this information?
 - 0-1: Old news, repeat coverage
 
 AFRICAN_RELEVANCE (0-10): Relevance to African/Kenyan tech professionals
-- 9-10: AI jobs opening in Africa/Kenya, African startup funding
-- 7-9: Policy/regulation directly affecting African tech
+- 9-10: AI jobs opening in Africa/Kenya, African AI startup funding, African AI policy
+- 7-9: Policy/regulation directly affecting African tech, tools with free tiers usable on low bandwidth
 - 4-6: Global trend clearly relevant to African data scientists/engineers
 - 1-3: Tangentially relevant
 - 0: No African relevance
+Bonus: add +2 (cap 10) if the story is African startup funding, African AI policy, or an accessible tool Africans can adopt immediately.
 
 JOB_IMPACT (0-10): Will this change workflows for data scientists, engineers, or PMs?
 - 9-10: Directly automates or transforms core job tasks
 - 6-8: New tool/capability that changes how professionals work
 - 3-5: Worth knowing, minor workflow change
 - 0-2: No professional workflow impact
+
+Penalties: "Top N tools" listicles, opinion pieces, and sponsored content score IMPACT <= 2 regardless of topic.
 
 Respond ONLY with valid JSON (no markdown, no explanation):
 {{"impact": <0-10>, "novelty": <0-10>, "african_relevance": <0-10>, "job_impact": <0-10>, "one_line_reason": "<why this scored as it did>"}}"""
@@ -70,9 +86,11 @@ def score_article(client: anthropic.Anthropic, article: dict, retries: int = 2) 
     prompt = SCORING_PROMPT.format(
         title=article.get("title", ""),
         source=article.get("source", ""),
+        category=article.get("category", "unknown"),
         summary=article.get("summary", "No summary available.")[:600],
     )
 
+    raw = ""
     for attempt in range(retries + 1):
         try:
             response = client.messages.create(
@@ -98,6 +116,15 @@ def score_article(client: anthropic.Anthropic, article: dict, retries: int = 2) 
 
             # Compute weighted final score
             final = sum(scores[k] * WEIGHTS[k] for k in WEIGHTS)
+
+            # African-source boost: stories from African outlets compete
+            # with big-lab announcements even on quiet news days.
+            if article.get("category") == "africa":
+                boosted = min(10.0, final + AFRICA_BOOST)
+                if boosted != final:
+                    log.info(f"    africa boost: {final:.2f} → {boosted:.2f}")
+                final = boosted
+
             scores["final_score"] = round(final, 2)
             scores["passes_threshold"] = final >= THRESHOLD
             return scores

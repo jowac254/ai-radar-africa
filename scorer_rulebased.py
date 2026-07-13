@@ -2,6 +2,14 @@
 AI Radar Africa - Rule-Based Scoring System
 Scores articles using keyword matching and source weighting.
 No external API, no API key, no cost.
+
+v2 changes (mirrors scorer.py so both paths behave the same):
+  - African source weights added (TechCabal, Techpoint, Disrupt Africa,
+    TechMoran, Google News: AI Africa).
+  - Articles from African sources (category == "africa") get an
+    african_relevance floor of 8.0 — an African tech outlet covering AI
+    is African-relevant by definition — plus the same +1.0 final boost.
+  - Expanded African keyword dictionary (more countries, companies, hubs).
 """
 
 import json
@@ -20,6 +28,8 @@ WEIGHTS = {
 }
 
 THRESHOLD = 6.0
+AFRICA_BOOST = 1.0        # flat final-score bonus for African sources
+AFRICA_RELEVANCE_FLOOR = 8.0  # minimum african_relevance for African sources
 
 # ── Keyword dictionaries (tune these freely) ─────────────────────────────────────
 
@@ -43,7 +53,10 @@ NOVELTY_TERMS = {
 AFRICAN_TERMS = {
     # very high (weight 10)
     10: ["kenya", "nigeria", "africa", "african", "nairobi", "lagos", "ghana",
-         "south africa", "rwanda", "egypt", "m-pesa", "safaricom", "flutterwave"],
+         "south africa", "rwanda", "egypt", "m-pesa", "safaricom", "flutterwave",
+         "ethiopia", "tanzania", "uganda", "senegal", "morocco", "tunisia",
+         "ivory coast", "côte d'ivoire", "paystack", "andela", "zindi",
+         "instadeep", "mtn", "airtel"],
     # high (weight 8) — emerging markets relevance
     8:  ["emerging market", "global south", "developing", "fintech", "mobile money",
          "remittance", "financial inclusion"],
@@ -71,6 +84,14 @@ SOURCE_WEIGHTS = {
     "Papers With Code": 1.0,
     "KDnuggets":        0.9,
     "Zapier Blog":      0.9,
+    # African sources — trusted primary coverage of the beat that matters most
+    "TechCabal":              1.2,
+    "Techpoint Africa":       1.2,
+    "Disrupt Africa":         1.2,
+    "TechMoran":              1.1,
+    "Techweez":               1.1,
+    "Ventureburn":            1.1,
+    "Google News: AI Africa": 1.0,
 }
 
 
@@ -100,6 +121,12 @@ def score_article(article: dict) -> dict:
     impact  = min(10.0, impact * src_mult)
     novelty = min(10.0, novelty * src_mult)
 
+    # African-source floor: an African tech outlet covering AI is
+    # African-relevant by definition, even without keyword matches.
+    is_african_source = article.get("category") == "africa"
+    if is_african_source:
+        african = max(african, AFRICA_RELEVANCE_FLOOR)
+
     scores = {
         "impact":            round(impact, 1),
         "novelty":           round(novelty, 1),
@@ -108,11 +135,17 @@ def score_article(article: dict) -> dict:
     }
 
     final = sum(scores[k] * WEIGHTS[k] for k in WEIGHTS)
+
+    # Mirror scorer.py's deterministic boost so both paths rank alike
+    if is_african_source:
+        final = min(10.0, final + AFRICA_BOOST)
+
     scores["final_score"] = round(final, 2)
     scores["passes_threshold"] = final >= THRESHOLD
 
     # Build a human-readable reason
     parts = []
+    if is_african_source: parts.append("African source")
     if african >= 8:  parts.append("strong African relevance")
     if impact >= 7:   parts.append("high impact")
     if novelty >= 8:  parts.append("breaking/new")
@@ -161,10 +194,10 @@ if __name__ == "__main__":
         articles = json.load(f)
 
     scored = score_all(articles)
-    save_scored(scored)
+    path = save_scored(scored)
 
     top = filter_top_stories(scored, top_n=5)
     print(f"\n✅ Scored {len(scored)} articles. Top stories:")
     for a in top:
-        print(f"  [{a['final_score']:.1f}] {a['source']}: {a['title'][:60]}")
-        print(f"       → {a['one_line_reason']}")
+        print(f"  [{a['final_score']:.1f}] {a['source']}: {a['title'][:65]}")
+        print(f"       → {a.get('one_line_reason', '')}")
