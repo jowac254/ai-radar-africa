@@ -33,14 +33,3 @@ jobs:
           GMAIL_SENDER:    ${{ secrets.GMAIL_SENDER }}
           BRIEF_RECIPIENT: ${{ secrets.BRIEF_RECIPIENT }}
         run: python main_no_api.py
-
-      - name: Commit outputs to repo
-        run: |
-          git config user.name  "AI Radar Bot"
-          git config user.email "actions@github.com"
-          git add outputs/
-          git diff --staged --quiet || git commit -m "Daily brief $(date +%Y-%m-%d)"
-          git pull --rebase origin main
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
